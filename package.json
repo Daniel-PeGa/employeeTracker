@@ -2,12 +2,13 @@
   "name": "employeetracker",
   "version": "1.0.0",
   "description": "SQL employee tracker",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "run": "server.js"
   },
   "repository": {
     "type": "git",
