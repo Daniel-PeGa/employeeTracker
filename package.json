@@ -1,0 +1,28 @@
+{
+  "name": "employeetracker",
+  "version": "1.0.0",
+  "description": "SQL employee tracker",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-PeGa/employeeTracker.git"
+  },
+  "author": "Daniel Perez Garnica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-PeGa/employeeTracker/issues"
+  },
+  "homepage": "https://github.com/Daniel-PeGa/employeeTracker#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  }
+}
