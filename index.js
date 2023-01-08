@@ -5,6 +5,7 @@ const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
 const inquirer = require('inquirer');
+const path = require("path");
 const fs = require('fs');
 
 const teamArray = [];
@@ -17,13 +18,13 @@ const addManager = () => {
             message: 'Whats the managers name?',
             validate : nameInput => {
                 if (nameInput) {
-                    return truel
+                    return true;
                 } else {
                     console.log('Please enter the managers name');
                     return false;
                 }
             }
-        }
+        },
         {
             type: 'input',
             name: 'id',
